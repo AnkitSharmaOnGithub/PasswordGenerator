@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+
+* {
+	box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    color : #fff;
+    font-family: 'Muli', sans-serif;
+}
+
+.container{
+    height: 100%;
+    
+    background-color: #34348e;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-div{
+    background-color: #22235b;
+    border : 1px solid #000;
+    padding: 2rem;
+    box-shadow: 0px 2px 10px rgba(255, 255, 255, 0.2);
+
+    width: 350px;
+	max-width: 100%;
+}
+
+.result--container{
+    background-color: #151537;
+    border : 1px solid #151537;
+
+    padding: 12px 10px;
+    width: calc(100%-50px);
+    height: 50px;
+
+    position: relative;
+}
+
+#clipboard{
+    background-color: #3b3c99;
+    border: 1px solid #3b3c99;
+    color : #fff;
+
+    width: 40px;
+    height: 40px;
+
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
+
+.setting{
+    display: flex;
+    justify-content: space-between;
+    margin : 1rem 0rem;
+}
+
+.password-length{
+    width: 50px;
+}
+
+.btn-fullspan{
+    width: 100%;
+
+    background-color: #3b3c99;
+    border: 1px solid #3b3c99;
+    color : #fff;
+    padding: 8px 12px;
+}
